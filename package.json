@@ -1,0 +1,35 @@
+{
+  "name": "space-x-missions",
+  "version": "1.0.0",
+  "description": "App to display the missions that SpaceX has undertaken ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morelmiles/spacex-launch-missions.git"
+  },
+  "keywords": [
+    "SpaceX",
+    "rockets",
+    "missions",
+    "launch"
+  ],
+  "author": "Luigi Morel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morelmiles/spacex-launch-missions/issues"
+  },
+  "homepage": "https://github.com/morelmiles/spacex-launch-missions#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
